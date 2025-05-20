@@ -8,7 +8,7 @@ namespace kutuphane
 {
     public class Books
     {
-
+        //fields
         private string BookName;
         private string Name;
         private string Surname;
@@ -16,90 +16,17 @@ namespace kutuphane
         private string Publisher;
         private string EntryDate;
 
-        public string bookName
-        {
-            get
-            {
-                return BookName;
-            }
-            set
-            {
-                BookName = value;
-            }
+        //properties
+        public string bookName { get { return BookName; } set { BookName = value; } }
+public string name { get { return Name; } set { Name = value; } }
+public string surname { get { return Surname; } set { Surname = value; } }
+public string pageNumber { get { return PageNumber; } set { PageNumber = value; } }
+public string publisher { get { return Publisher; } set { Publisher = value; } }
+public string entryDate { get { return EntryDate; } set { EntryDate = value; } }
 
 
-        }
-
-        public string name
-        {
-            get
-            {
-                return Name;
-            }
-            set
-            {
-                Name = value;
-            }
-
-
-        }
-
-        public string surname
-        {
-            get
-            {
-                return Surname;
-            }
-            set
-            {
-                Surname = value;
-            }
-
-
-        }
-
-        public string pageNumber
-        {
-            get
-            {
-                return PageNumber;
-            }
-            set
-            {
-                PageNumber = value;
-            }
-
-
-        }
-
-        public string publisher
-        {
-            get
-            {
-                return Publisher;
-            }
-            set
-            {
-                Publisher = value;
-            }
-
-
-        }
-
-        public string entryDate
-        {
-            get
-            {
-                return EntryDate;
-            }
-            set
-            {
-                EntryDate = value;
-            }
-
-
-        }
-
+        
+        //constructor
         public Books()
 
         {
